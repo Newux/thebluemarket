@@ -1,3 +1,6 @@
+.wrapper{
+    visibility: hidden;
+}
 /*Horizontal menu css start*/
 #cssmenu,
 #cssmenu ul,
@@ -478,3 +481,61 @@ footer .no-left-padding{
     left: 0 !important;
 }
 /*Grid view layout end*/
+
+/*List view customization start*/
+
+.home-share-type-link{
+    display: none !important;
+}
+
+@media (min-width: 63em){
+    .home-list-title, .browsing-list-item-title {
+        padding-bottom: 0.5em !important;
+    }
+}
+
+.home-list-author{
+    top: 2em !important;
+}
+
+.black-color{
+    color: #000 !important;
+}
+
+.home-list-details-right {
+    width: 220px !important;
+    position: relative;
+}
+
+.text-overflow-hidden{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media(max-width: 767px){
+    .home-list-author{
+        display: none;
+    }
+}
+
+.home-list-item{
+    border-bottom: 0 !important;
+}
+.home-list-item-price-value, .browsing-list-item-price-value{
+    font-size: 1.75em !important;
+    font-weight: 600 !important;
+}
+
+@media (min-width: 48em){
+    .home-list-author-with-listing-image, .browsing-list-item-author-with-listing-image{
+        left: 15.75em !important;
+    }
+    .home-list-details-with-image{
+        margin-left: 15.75em !important;
+    }
+
+
+}
+
+/*List view customization end*/
