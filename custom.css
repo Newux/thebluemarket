@@ -402,11 +402,6 @@ footer .no-left-padding{
 /*Red  banner css end*/
 
 /*Top bar css start*/
-@media (min-width: 1201px) {
-    .Logo img {
-        height: 80px;
-    }
-}
 
 .MenuPriority{
     /*font-family: "Arial Bold";*/
