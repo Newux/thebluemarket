@@ -5,7 +5,7 @@ $(document).ready(function () {
     addBannerForNotLoggedIn();
     addFooter();
     addRedBanner();
-    updateLogo();
+    //updateLogo();
     updateGridView();
     customizePeopleGrid();
     customizeListView();
