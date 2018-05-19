@@ -65,6 +65,10 @@ $(document).ready(function () {
 
         mainMenu += "</ul></div>";
         $(".home-toolbar").append(mainMenu);
+        
+        if($(".has-sub").last().children("ul").children().length == 0){
+          $(".has-sub").last().hide();
+        }
     }
 
     function addBannerForNotLoggedIn() {
