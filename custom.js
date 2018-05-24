@@ -17,8 +17,9 @@ $(document).ready(function () {
             $(".mobile-filters").toggleClass("hidden")
         });
 
-        var filters = $("#desktop-filters #filters").children(),
-            filtersRowToRemove = [0, 1, 2, 7];
+        var filters = $("#desktop-filters #filters").children();
+//         var filtersRowToRemove = [0, 1, 2, 7]; 
+        var filtersRowToRemove = [0];
 
         $("#homepage-filters .col-3").removeClass("visible-tablet").addClass("visible-desktop");
         $("#filters").prependTo($("#home-toolbar-filters .hidden-tablet").last());
