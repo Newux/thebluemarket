@@ -38,6 +38,7 @@
     float: none;
     margin-left: -3px;
 }
+
 #cssmenu.align-center ul ul {
     text-align: left;
 }
@@ -440,7 +441,9 @@ footer .no-left-padding{
     bottom: 0;
     font-size: 20px;
     font-weight: 700;
+    color: #C00808;
 }
+.home-list-item-price-value{color: #C00808; }
 
 .fluid-thumbnail-grid-image-price-container{
     display: none;
