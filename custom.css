@@ -10,6 +10,7 @@
     line-height: 1;
     margin: 0;
     padding: 0;
+    /*white-space: nowrap;*/
 }
 #cssmenu {
     height: 42px;
@@ -37,6 +38,7 @@
 #cssmenu.align-center > ul > li {
     float: none;
     margin-left: -3px;
+
 }
 
 #cssmenu.align-center ul ul {
@@ -95,9 +97,8 @@
     position: absolute;
     top: 38px;
     background: #3f3f3f;
-    border-radius: 0 0 5px 5px;
     z-index: 999;
-    padding: 10px 0;
+    padding: 10px 0 0 0;
 }
 #cssmenu ul li > ul {
     width: auto;
@@ -116,8 +117,16 @@
     position: relative;
     margin: 0;
     padding: 0;
+    border-bottom: #909090 1px solid;
+    padding-right: 10px;
+    cursor: pointer;
 }
-#cssmenu ul li > ul li a {
+
+#cssmenu ul li > ul li:hover {
+    background: #676767;
+}
+
+#cssmenu ul li > ul li a, #cssmenu ul li > ul li label {
     outline: none;
     display: block;
     position: relative;
@@ -126,8 +135,9 @@
     text-decoration: none;
     text-transform: uppercase;
     margin: 0;
-    padding: 8px 20px;
+    padding: 3px 10px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 /*Horizontal menu css end*/
@@ -148,8 +158,15 @@
         display: block;
     }
 
+}
+
+@media (width: 768px){
+    .home-list-price-value-mobile{
+        display: none;
+    }
 
 }
+
 #homepage-filters .col-9{
     width: 100% !important;
 }
@@ -539,4 +556,141 @@ footer .no-left-padding{
 .home-list-price-value-mobile{color: #C00808}
 /*List view customization end*/
 
+#cssmenu > .custom-filter-checkbox-label-text{
+    color: #fff;
+}
+
+.custom-filter-checkbox-label-text{
+    margin-left: 1.1875em;
+}
+
+
+/*checkbox css*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.prettycheckbox, .prettyradio {
+    display: inline-block;
+    padding: 0;
+    margin: 0
+}
+
+.prettycheckbox > a, .prettyradio > a {
+    height: 30px;
+    width: 30px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin: 0;
+    background: url('../img/sprites-sfa68604977.png')
+}
+
+.prettycheckbox > a:focus, .prettyradio > a:focus {
+    outline: 0 none
+}
+
+.prettycheckbox label, .prettyradio label {
+    display: block;
+    float: left;
+    margin: 6px 5px;
+    cursor: pointer
+}
+
+.prettycheckbox a.disabled, .prettycheckbox label.disabled, .prettyradio a.disabled, .prettyradio label.disabled {
+    cursor: not-allowed
+}
+
+.prettycheckbox > a {
+    background-position: 0 0
+}
+
+.prettycheckbox > a:focus {
+    background-position: -30px 0
+}
+
+.prettycheckbox > a.checked {
+    background-position: -60px 0
+}
+
+.prettycheckbox > a.checked:focus {
+    background-position: -90px 0
+}
+
+.prettycheckbox > a.checked.disabled {
+    background-position: -150px 0
+}
+
+.prettycheckbox > a.disabled {
+    background-position: -120px 0
+}
+
+.prettyradio > a {
+    background-position: -180px 0
+}
+
+.prettyradio > a:focus {
+    background-position: -210px 0
+}
+
+.prettyradio > a.checked {
+    background-position: -240px 0
+}
+
+.prettyradio > a.checked:focus {
+    background-position: -270px 0
+}
+
+.prettyradio > a.checked.disabled {
+    background-position: -330px 0
+}
+
+.prettyradio > a.disabled {
+    background-position: -300px 0
+}
+
+
+/*checkbox css*/
+
+.MultiControls {
+    display: block;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.13);
+    border-radius: 0 0 3px 3px;
+    color: #fff;
+    padding-right: 0 !important;
+}
+
+.MultiControls:hover{
+    background: #4a4a4a;
+}
+
+.MultiControls > button.btnOk {
+    border-right: 1px solid #909090;
+}
+
+.MultiControls > button {
+    display: inline-block;
+    cursor: pointer;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 6px 0;
+    margin: 0;
+    border-radius: 0px;
+    outline: none;
+}
+
+
+.MultiControls > button:hover {
+    background: #676767;
+}
 
