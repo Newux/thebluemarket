@@ -98,7 +98,9 @@ $(document).ready(function () {
 
         $(".btnCancel").click(function (e) {
             e.preventDefault();
-            $(this).parents("ul").first().find('input[type="checkbox"]').attr('checked', false);
+            $(this).parents("ul").first().find('input[type="checkbox"]').each(function() {
+                $('input[value="'+$(this).val() + '"]').prop('checked', false);
+             });
         });
 
         $(".main-menu").click(function (e) {
@@ -110,6 +112,7 @@ $(document).ready(function () {
             if(!$(this).is(":checked")){
                 $('input[value="'+$(this).val() + '"]').prop('checked', false);
             }
+           
         });
         // $('.pretty-checkbox').each(function(key, elem) { $(elem).prettyCheckable(); });
     }
