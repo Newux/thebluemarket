@@ -565,101 +565,27 @@ footer .no-left-padding{
 }
 
 
-/*checkbox css*/
-.clearfix:before, .clearfix:after {
-    content: "";
-    display: table
+#cssmenu input[type="checkbox"]{
+cursor: pointer;
+-webkit-appearance: none;
+appearance: none;
+background: #34495E;
+border-radius: 1px;
+box-sizing: border-box;
+position: relative;
+box-sizing: content-box ;
+width: 30px;
+height: 30px;
+border-width: 0;
+transition: all .3s linear;
 }
-
-.clearfix:after {
-    clear: both
+#cssmenu input[type="checkbox"]:checked{
+  background-color: #2ECC71;
 }
-
-.clearfix {
-    *zoom: 1
+#cssmenu input[type="checkbox"]:focus{
+  outline: 0 none;
+  box-shadow: none;
 }
-
-.prettycheckbox, .prettyradio {
-    display: inline-block;
-    padding: 0;
-    margin: 0
-}
-
-.prettycheckbox > a, .prettyradio > a {
-    height: 30px;
-    width: 30px;
-    display: block;
-    float: left;
-    cursor: pointer;
-    margin: 0;
-    background: url('../img/sprites-sfa68604977.png')
-}
-
-.prettycheckbox > a:focus, .prettyradio > a:focus {
-    outline: 0 none
-}
-
-.prettycheckbox label, .prettyradio label {
-    display: block;
-    float: left;
-    margin: 6px 5px;
-    cursor: pointer
-}
-
-.prettycheckbox a.disabled, .prettycheckbox label.disabled, .prettyradio a.disabled, .prettyradio label.disabled {
-    cursor: not-allowed
-}
-
-.prettycheckbox > a {
-    background-position: 0 0
-}
-
-.prettycheckbox > a:focus {
-    background-position: -30px 0
-}
-
-.prettycheckbox > a.checked {
-    background-position: -60px 0
-}
-
-.prettycheckbox > a.checked:focus {
-    background-position: -90px 0
-}
-
-.prettycheckbox > a.checked.disabled {
-    background-position: -150px 0
-}
-
-.prettycheckbox > a.disabled {
-    background-position: -120px 0
-}
-
-.prettyradio > a {
-    background-position: -180px 0
-}
-
-.prettyradio > a:focus {
-    background-position: -210px 0
-}
-
-.prettyradio > a.checked {
-    background-position: -240px 0
-}
-
-.prettyradio > a.checked:focus {
-    background-position: -270px 0
-}
-
-.prettyradio > a.checked.disabled {
-    background-position: -330px 0
-}
-
-.prettyradio > a.disabled {
-    background-position: -300px 0
-}
-
-
-/*checkbox css*/
 
 .MultiControls {
     display: block;
