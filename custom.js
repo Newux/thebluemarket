@@ -5,7 +5,7 @@ $(document).ready(function () {
     // $("head").prepend('<link rel="stylesheet" type="text/css" href="https://f61d979d.ngrok.io/custom.css">');
     convertFilterToMenu();
     addBannerForNotLoggedIn();
-    addFooter();
+    removeFooter();
     addRedBanner();
     //updateLogo();
     updateGridView();
@@ -134,7 +134,7 @@ $(document).ready(function () {
         }
     }
 
-    function addFooter() {
+    function removeFooter() {
         $('body').append('<footer><div>' +
             '<div class="row footer-links">' +
             '<div class="col-xs-12 col-sm-4 text-center">' +
