@@ -5,7 +5,6 @@ $(document).ready(function () {
     // $("head").prepend('<link rel="stylesheet" type="text/css" href="https://f61d979d.ngrok.io/custom.css">');
     convertFilterToMenu();
     addBannerForNotLoggedIn();
-    removeFooter();
     addRedBanner();
     //updateLogo();
     updateGridView();
@@ -133,32 +132,6 @@ $(document).ready(function () {
             $(".title-container").css("background", "#fff").css("border-bottom", "1px solid rgba(0,0,50,0.1)");
         }
     }
-
-    function removeFooter() {
-        $('body').append('<footer><div>' +
-            '<div class="row footer-links">' +
-            '<div class="col-xs-12 col-sm-4 text-center">' +
-            '<div class=row><h2>OPENING HOURS</h2>' +
-            '<div class="col-sm-12 col-xs-6" style="margin-bottom: 10px;"><div class="bigger">Monday - Saturday</div><div class="smaller">9:30am - 6:00pm</div></div>' +
-            '<div class="col-sm-12 col-xs-6"><div class="bigger">Sunday & Holidays</div><div class="smaller">Closed</div></div>' +
-            '</div></div>' +
-            '<div class="col-xs-12 col-sm-4 text-center">' +
-            '<div class=row><h2>CONTACT</h2>' +
-            '<div class="col-sm-12 col-xs-6 row" style="margin-bottom: 5px;"><div class="bigger"><i class="fa fa-map-marker" aria-hidden="true" style="top: 5px;"></i>The Mall at Marathon</div><div class="smaller">Nassau, Bahamas</div></div>' +
-            '<div class="col-sm-12 col-xs-6 row"><div class="bigger"><i class="fa fa-phone" aria-hidden="true"></i>1 242 698 4111</div></div>' +
-            '<div class="col-sm-12 col-xs-6 row"><div class="bigger"><i class="fa fa-envelope" aria-hidden="true"></i>info@thebluemarket.com</div></div>' +
-            '</div></div>' +
-
-            '<div class="col-xs-12 col-sm-4 text-center-mobile">' +
-            '<div class=row><h2>INFORMATION</h2>' +
-            '<div class="col-sm-12 col-xs-6 no-left-padding" style="margin-bottom: 5px;"><div class="bigger"><a href="https://pricing.thebluemarket.com">Pricing</a></div></div>' +
-            '<div class="col-sm-12 col-xs-6 no-left-padding" style="margin-bottom: 5px;"><div class="bigger"><a href="https://listings.thebluemarket.com/en/infos/privacy">Privacy notice</a></div></div>' +
-            '<div class="col-sm-12 col-xs-6 no-left-padding" style="margin-bottom: 5px;"><div class="bigger"><a href="https://listings.thebluemarket.com/en/infos/terms">Conditions of use</a></div></div>' +
-            '<div class="col-sm-12 col-xs-6 no-left-padding" style="margin-bottom: 5px;"><div class="bigger"><a href="https://listings.thebluemarket.com/user_feedbacks/new">Contact us</a></div></div>' +
-            '</div></div>' +
-
-            '<div class="col-xs-12 col-sm-12"><ul class="social-links-list text-center"><li class="facebook"><a href="https://www.facebook.com/TheBlueMarket242" class="fa fa-facebook"></a></li><li class="instagram"><a href="https://www.instagram.com/thebluemarket242" class="fa  fa-instagram"></a></li><li class="twitter"><a href="https://mobile.twitter.com/BlueMarket242" class="fa  fa-twitter"></a></li></ul></div></div></div></div><div class="row footer-link text-center footer-logo"><img src="https://raw.githubusercontent.com/bipashant/thebluemarket/master/darklogo.png"/><div class="row footer-link text-center" style="font-size: 14px;color: #959494;">&copy; THE BLUE MARKET LTD. All rights reserved.</div></div></div></footer>');
-    };
 
     function addRedBanner() {
         if (display_red_banner) {
