@@ -186,106 +186,6 @@
 }
 /*Homepage filter css end*/
 
-/*Footer css Start*/
-footer {
-    background: #4a4a4a;
-    background-size: contain;
-    height: auto;
-    position: relative;
-    padding: 20px !important;
-    color: #fff !important;
-}
-
-footer .layout-centered-content {
-    max-width: 984px;
-    margin: 0 auto
-}
-
-footer .row a {
-    display: inline
-}
-
-footer h2 {
-    color: #fff;
-    margin-bottom: 15px;
-}
-
-footer .footer-links a {
-    color: #fff;
-}
-
-footer .bottom-footer-links {
-    padding: 0;
-    font-size: 14px;
-    color: #fff
-}
-
-footer .bottom-footer-links li {
-    list-style-type: none;
-    padding-right: 20px;
-    display: inline
-}
-
-footer .bottom-footer-links li a {
-    color: #fff;
-    display: inline;
-    font-size: 14px
-}
-
-footer .social-links-list {
-    margin-top: 5px;
-    padding: 0;
-    text-align: left
-}
-
-footer .social-links-list li {
-    list-style-type: none;
-    display: inline-block;
-    height: 30px;
-    width: 50px;
-    margin: 0 10px 0 0;
-    padding-right: 0
-}
-
-footer .social-links-list li a {
-    display: block;
-    height: 30px;
-    overflow: hidden
-}
-
-footer .social-links-list li.instagram a {
-    font-size: 30px;
-    color: #fff
-}
-
-footer .social-links-list li.twitter a {
-    font-size: 30px;
-    color: #fff
-}
-
-footer .social-links-list li.facebook a {
-    font-size: 30px;
-    color: #fff
-}
-
-footer .footer-store-links {
-    clear: both;
-    padding-top: 30px;
-    text-align: center
-}
-
-.footer-logo img{
-    width: 200px;
-}
-footer .bigger{
-    font-size: 1em;
-}
-footer .smaller{
-    font-size: 0.85em;
-}
-footer .no-left-padding{
-    padding-left: 0;
-}
 .col-xs-3, .col-sm-3, .col-xs-6, .col-sm-6, .col-xs-12, .col-sm-12 {
     position: relative;
     min-height: 1px;
@@ -383,9 +283,6 @@ footer .no-left-padding{
 .text-center{
     text-align: center !important;
 }
-
-/*Footer css end*/
-
 /* Red banner css*/
 
 .red-banner{
