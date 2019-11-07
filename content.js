@@ -1,4 +1,4 @@
-marketplace_slogan = "HELPING YOU FIND THE BEST DEALS.";
-marketplace_description = "AN ONLINE MARKETPLACE FOR BUYERS AND SELLERS";
+marketplace_slogan = "LIST YOUR EVENT SERVICE";
+marketplace_description = "ON THE BLUE MARKET";
 display_red_banner = false;
 
