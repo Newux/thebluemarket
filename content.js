@@ -1,4 +1,4 @@
-marketplace_slogan = "LIST YOUR EVENT SERVICE";
-marketplace_description = "ON THE BLUE MARKET";
+marketplace_slogan = "PLANNING AN EVENT?";
+marketplace_description = "CHECK OUT OUR LISTING OF LOCAL VENDORS BELOW";
 display_red_banner = false;
 
