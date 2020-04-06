@@ -1,4 +1,4 @@
-marketplace_slogan = "PLANNING AN EVENT?";
-marketplace_description = "CHECK OUT OUR LISTING OF LOCAL VENDORS";
+marketplace_slogan = "";
+marketplace_description = "";
 display_red_banner = false;
 
